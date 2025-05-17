@@ -26,7 +26,36 @@
     border: none;
     font-weight: 700;
     font-size: 20px;
-    
+    cursor: pointer;
+}
+.btn-secondary{
+    background-color: white;
+    color: #FD6E0A;
+    height: 64px;
+    width: 150px;
+    border-radius: 5px;
+    border:solid #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;  
+    cursor: pointer;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-description{
+    font-size: 18px;
+}
+
+header{
+    background-image:url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
 }
 
 /* nav style */
@@ -55,4 +84,37 @@ nav>ul>li>a{
     text-decoration: none;
     
     font-size: 20px;
+}
+
+/* banner style */
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 800;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-between;
+}
+.about-item>.item-description{
+    font-weight:600;
 }
