@@ -11,11 +11,17 @@
 .text-primary{
     color: #FD6E0A;
 }
+.text-center{
+    text-align: center;
+}
 .dark-1{
     color: #181818;
 }
 .dark-2{
     color: #474747;
+}
+.dark-3{
+    color: #757575;
 }
 .btn-primary{
     color: white;
@@ -111,10 +117,96 @@ main{
     margin-top: 130px;
     text-align: center;
 }
+.about-inside{
+    background-color: white; 
+    padding: 0 10px;
+}
 .about-items{
     display: flex;
     justify-content: space-between;
 }
 .about-item>.item-description{
     font-weight:600;
+}
+
+.skills{
+    margin: 100px 0;
+}
+.what-i-do{
+    text-align: center;
+    
+    padding: 0 150px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card{
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 6px 50px 0 #1E1E1E;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-description, .experience-sub-title{
+     color: #757575;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 2px 0px;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin: 0px 0px;
+}
+
+.resume-btn-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+}
+.footer-column{
+    width: 50%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+form>input{
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    color: #757575;
+    margin-bottom: 24px;
+    font-size: 16px;
+    border: none;
+}
+form>textarea{
+    width: 461px;
+    height: 180px;
+    border-radius: 5px;
+    color: #757575;
+    margin-bottom: 24px;
+    font-size: 16px;
+    border: none;
 }
